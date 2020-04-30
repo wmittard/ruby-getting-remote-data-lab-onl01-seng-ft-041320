@@ -6,7 +6,8 @@ class GetRequester
    
    URL = 'https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json'
   
-  def initialize(URL)
+  def initialize(url)
+    
    
  def get_response_body
   uri = URI.parse(URL)
