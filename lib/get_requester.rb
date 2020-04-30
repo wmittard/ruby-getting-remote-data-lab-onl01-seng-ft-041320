@@ -3,7 +3,7 @@ require 'open-uri'
 require 'json'
 
 class GetRequester 
-   URL = 
+   URL = 'https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json'
    
  
   def get_response_body
@@ -13,12 +13,9 @@ class GetRequester
   end
   
   def parse_json
-  
-  programs = JSON.parse(self.get_programs)
-  programs.collect do |program|
-    program["agency"]  
   end
-end
+  
+
  
 end
  
