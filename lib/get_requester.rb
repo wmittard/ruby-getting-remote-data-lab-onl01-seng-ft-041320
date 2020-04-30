@@ -22,7 +22,8 @@ end
   
   
   def parse_json
-    response_body
+    response_body = get_response_body
+    
   end
   
 end
