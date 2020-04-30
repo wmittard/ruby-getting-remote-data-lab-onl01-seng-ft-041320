@@ -23,7 +23,7 @@ end
   
   def parse_json
     response_body = get_response_body
-    person_array = JSON
+    person_array = JSON.parse
   end
   
 end
